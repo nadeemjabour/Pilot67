@@ -1,0 +1,47 @@
+/* Compact opening area: preserve content and controls, give the workspace more room. */
+header{min-height:60px;padding-top:0;padding-bottom:0;gap:16px}
+header nav{min-height:60px;gap:16px}
+header .brand{font-size:18px;gap:10px}
+header .brand>b{font-size:29px}header .brand>b span{font-size:22px}
+header .brand small{font-size:9px}
+.pisgaBrand{gap:9px}.pisgaBrand>b{font-size:28px}.pisgaBrand>div{font-size:16px}
+main{padding-top:16px}
+.intro{margin-bottom:14px;gap:16px}
+.intro .eyebrow{margin-bottom:3px;font-size:10px}
+.intro h1{font-size:25px;line-height:1.3;margin:0 0 4px;letter-spacing:-.6px}
+.intro p:not(.eyebrow){font-size:11px;line-height:1.6}
+.save{gap:6px}.save>span{margin-bottom:2px;font-size:9px}
+.save button,.save .import{padding:6px 10px;font-size:11px}
+.partnership{gap:12px;margin-bottom:12px}
+.centerSummary,.chosenSummary{padding:12px 16px;border-radius:10px}
+.centerSummary{gap:12px}
+.centerSummary .visualIcon{width:42px;height:42px;font-size:26px;border-radius:12px}
+.centerSummary h2,.chosenSummary h2{font-size:16px;margin:3px 0 5px;line-height:1.4}
+.centerSummary p{font-size:10px;margin:0 0 7px;line-height:1.5}
+.centerSummary button{padding:5px 9px;font-size:10px}
+.cardEyebrow{font-size:9px}.chosenBadge{padding:3px 8px;font-size:9px}
+.chosenSummary .schoolNumbers b{font-size:18px}
+.chosenSummary .schoolNumbers span{font-size:9px}
+.chosenSummary .schoolNumbers>div{padding:0 14px}
+.chosenSummary .schoolNumbers>div:first-child{padding-right:0}
+.profileLinks{margin-top:7px;gap:14px}.profileLinks a{font-size:9px}
+.nationalBanner{padding:9px 14px;gap:12px;margin-bottom:12px;border-radius:9px;flex-wrap:nowrap}
+.nationalIcon{width:31px;height:31px;font-size:22px;border-radius:9px}
+.nationalBanner b{font-size:11px}.nationalBanner p{font-size:10px;margin-top:2px;line-height:1.5}
+.nationalBannerActions{margin-right:auto;gap:10px}
+.nationalBannerActions button{padding:5px 9px;font-size:10px}
+.nationalBannerActions>a{font-size:10px}
+.overview{padding:10px 17px;gap:22px;border-radius:9px}
+.overview h2{font-size:15px;margin-top:1px}.overview .mini{font-size:9px}
+.overview .progressInfo>b{font-size:21px}.overview .progressInfo span{font-size:10px}
+.overview .bar{margin-top:5px}.overview .pill{font-size:9px;padding:5px 9px}
+.steps{gap:10px;margin:12px 0 14px}
+.step{padding:10px 12px;border-radius:8px}
+.stepHead{margin-bottom:7px;gap:7px}
+.step .num{width:24px;height:24px;font-size:12px}
+.stepStatus{min-height:27px;font-size:11px;padding:4px 8px}
+.step strong{font-size:12px;margin-bottom:2px;line-height:1.5}
+.step small{font-size:10px;line-height:1.4}
+@media(min-width:1500px){main{padding-top:18px}}
+@media(min-width:761px) and (max-width:1100px){header{justify-content:space-between}header nav{gap:13px}.nationalBanner{gap:10px}.nationalBannerActions{gap:8px}.nationalBanner p{max-width:340px}.centerSummary .visualIcon{display:none}.step{padding:10px}.stepStatus{font-size:10px;min-width:0}.stepHead{gap:5px}}
+@media(max-width:760px){header{padding:9px 16px 0;gap:4px;min-height:0;justify-content:flex-start}header nav{min-height:40px;width:100%;gap:18px}header nav button{font-size:11px;padding:7px 0}.brand small{font-size:8px}main{padding-top:12px}.intro{gap:8px;margin-bottom:10px}.intro h1{font-size:23px}.intro p:not(.eyebrow){font-size:11px}.save{max-width:none;width:100%;justify-content:flex-start;align-items:center;gap:6px}.save>span{width:auto;margin:0 auto 0 0;order:3;font-size:8px}.save button,.save .import{padding:6px 8px;font-size:10px}.partnership{gap:8px;margin-bottom:10px}.centerSummary,.chosenSummary{padding:10px 13px}.centerSummary .visualIcon{width:34px;height:34px;font-size:22px}.centerSummary{gap:10px}.centerSummary>div{flex:1}.centerSummary h2,.chosenSummary h2{font-size:15px}.centerSummary button{font-size:10px;padding:4px 8px}.chosenSummary .schoolNumbers{justify-content:space-between}.chosenSummary .schoolNumbers>div{padding:0 10px}.chosenSummary .schoolNumbers b{font-size:17px}.nationalBanner{padding:9px 12px;gap:8px;flex-wrap:wrap;margin-bottom:10px}.nationalBanner>div:not(.nationalBannerActions){flex:1}.nationalBannerActions{width:100%;margin:0;gap:12px;justify-content:flex-start}.nationalIcon{width:28px;height:28px;font-size:20px}.nationalBanner b{font-size:11px}.nationalBanner p{font-size:10px}.overview{padding:9px 12px;gap:12px}.overview h2{font-size:13px}.progressInfo{gap:8px}.steps{margin:10px 0 12px;gap:8px}.step{min-width:145px;padding:9px 11px}.stepHead{margin-bottom:6px}.stepStatus{font-size:10px;min-height:25px;padding:3px 7px}.step strong{font-size:11px}.step small{font-size:9px}}
